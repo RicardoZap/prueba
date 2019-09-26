@@ -1,0 +1,28 @@
+.cuadro{
+    height: 90px;
+    width: 90px;
+
+    border:10px solid blue;
+    display: inline-block;
+}
+
+
+.cuadro:last-child
+{
+    background-color: red
+}
+
+.cuadro:first-of-type
+{
+    background-color: red
+}
+
+div.cuadro:nth-of-type(8)
+{
+    background-color: red
+}
+
+div.cuadro:nth-of-type(33)
+{
+    background-color: red
+}
