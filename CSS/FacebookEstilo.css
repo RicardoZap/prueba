@@ -1,3 +1,15 @@
+#facel
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 58px;
+    color:white;
+    font-size: 400%;
+    height: 0%;
+}
+#divfacel
+{
+    margin-top: -95px;
+}
 .textcorreo
 {
     margin: 0px;
@@ -6,9 +18,8 @@
     height: 0%;
     background-color:transparent;
     font-size: 28%;
-    margin-top: -30px;
+    
 }
-
 #correo
 {
     margin-left: 700px;
@@ -23,6 +34,7 @@
     background-color:transparent;
     font-size: 28%;
     margin-top: -58px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #contrasena
@@ -37,7 +49,7 @@ body
 
 .encabezado { 
     margin: -10px;
-    width: 1330px;
+    width: 1338px;
     height: 80px;
     font-family: Arial; 
     font-size: 50px; 
@@ -100,4 +112,130 @@ body
     padding: 8px 110px;
     border: 1px solid;
     border-color: rgb(145, 188, 216);
+}
+#divfecha
+{
+    margin-left: 630px;
+    margin-top: 10px;
+    padding: 8px 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+#dia
+{
+    margin-left: 740px;
+}
+#sexo
+{
+    margin-left: 630px;
+    margin-top: 10px;
+    padding: 8px 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+#mujer
+{
+    margin-left: 740px;
+    margin-top: 10px;
+    padding: 8px 110px;
+}
+#mujerl
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+#hombre
+{
+    margin-left: 840px;
+    padding: 8px 110px;
+}
+#hombrel
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+#divhom
+{
+    margin-top: -18px;
+}
+#divper
+{
+    margin-top: -19px;
+}
+#personalizado
+{
+    margin-left: 940px;
+    padding: 8px 110px;
+}
+#persol
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#terminos
+{
+    width: 20%;
+    height: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    margin-left: 740px;
+}
+#mes
+{
+    width: 20%;
+    height: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    padding: 1.5px;
+}
+#divmes
+{
+    margin-top: -25px;
+    margin-left: 775px;
+    width: 300px;
+    height: 80%;
+    padding: 5px;
+}
+#divyear
+{
+    margin-top: -29px;
+    margin-left: 836px;
+    padding: 5px;
+}
+#mensaje
+{
+    font-family: Arial;
+    color:rgb(17, 17, 126);
+    font-size: 150%;
+    margin-top: -450px;
+    width: 40%;
+    height: 0%;
+    margin-left: 60px;
+}
+#img
+{
+    width: 40%;
+    margin-left: 50px;
+}
+#registrar
+{
+    background: linear-gradient(#79bc64,#578843);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color:white;
+    margin-top: 170px;
+    padding: 10px 40px 10px;
+    margin-left: 740px;
+}
+#entrar
+{ 
+    background-color: #3b5998;
+    color:white;
+    
+}
+#diventrar
+{
+    margin-top: -574px;
+    margin-left: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
