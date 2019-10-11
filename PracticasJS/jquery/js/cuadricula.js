@@ -1,0 +1,36 @@
+$(document).ready(function(){
+    $('#boton1').click(function()
+    {
+        $("div:first").css({'background-color':'red'});  
+    
+    })
+    $("#boton2").click(function(){
+        $("div:nth-child(8)").css({'background-color':'red'});
+    })
+    $("#boton3").click(function(){
+        $("#div33").css({'background-color':'red'});
+    })
+    $("#boton4").click(function(){
+        $("#div40").css({'background-color':'red'});
+    })
+    $("#boton5").click(function()
+    {
+        $("#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8").css({'background-color':'red'});
+    })
+    $("#boton6").click(function(){
+        $("#div33,#div34,#div35,#div36,#div37,#div38,#div39,#div40").css({'background-color':'red'});
+    })
+    $("#boton7").click(function(){
+        $("#div1,#div9,#div17,#div25,#div33").css({'background-color':'red'});
+    })
+    $("#boton8").click(function(){
+        $("div").css({'background-color':'white'});
+    })
+    $("#boton9").click(function(){
+        $("#div8,#div16,#div24,#div32,#div40").css({'background-color':'red'});
+    })
+    $("#boton10").click(function(){
+        $("#div1,#div9,#div17,#div25,#div33,#div8,#div16,#div24,#div32,#div40,#div33,#div34,#div35,#div36,#div37,#div38,#div39,#div40,#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8").css({'background-color':'red'});
+    })
+
+});

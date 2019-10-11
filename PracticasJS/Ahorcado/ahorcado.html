@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ahorcado.css">
+    <title>Ahorcado</title>
+    <script type="text/javascript">
+    
+    var palabras= new Array("carro","cuaderno","laptop","avion","pantalla","dominio")
+    
+    
+
+    function obtenerDatos(){
+    var letra = document.getElementById("letra").value;
+    alert ("Ingresaste: " + letra);
+    }
+    </script>
+    <form>
+            <div id="titulo">Ahorcado </div>
+            <input type="text" id="letra" name="letra"/><br/>  
+
+            <input type="button" value="Enviar" id="boton" style="margin-top: -20px" onclick="obtenerDatos()"/>        
+    </form>
+</head>
+<body>
+
+</body>
+</html>
